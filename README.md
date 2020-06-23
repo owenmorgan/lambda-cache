@@ -5,7 +5,7 @@ Package to cache objects in memory for NodeJS Lambda Functions
 ## How to use
 ```js
 import { APIGatewayEvent } from 'aws-lambda';
-import { Cache } from '../../../common/cache';
+import { Cache } from './cache';
 
 const cache = new Cache();
 
